@@ -30,7 +30,7 @@ loginForm.addEventListener('submit', function (e) {
     const password = loginForm.querySelector('input[type="password"]').value;
 
     // Simulating a login check
-    if (email === 'maryclaresuarez@gmail.com' && password === 'maryclaresuarez') {
+    if (email === 'maryclaresuarez@gmail.com' && password === 'maryclaresuarez', email === 'jamesgaylon@gmail.com' && password === 'jamesgaylon') {
         window.location.href = 'index.html';
     } else {
         alert('Invalid email or password. Please try again.');
